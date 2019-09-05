@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//@EnableEurekaClient表明这是一个生产者
+//@EnableEurekaClient表明这是一个生产者  服务提供商 @EnableEurekaClient与@EnableDiscoveryClient
+//效果差不多一致 知识@EnableEurekaClient只适合于Eureka
 @EnableEurekaClient
 @RestController
 @SpringBootApplication
